@@ -1,0 +1,160 @@
+.footer-principal{
+    padding-top: 100px;
+    .footer-01a{
+        background-color: $white;
+        max-width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+        .container-footer-01a{
+            padding-top: 72px;
+            .footer-up{
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 56px;
+                border-bottom: 1px solid $silver;
+                .icon-desc{
+                    img{
+                        margin-bottom: 16px;
+                    }
+                    h3{
+                        font-size: 24px;
+                        font-weight: 600;
+                        margin-bottom: 8px;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: normal;
+                        width: 70%;
+                    }
+                }
+                .table{
+                    table{
+                        tr{
+                            th{
+                                font-size: 14px;
+                                font-weight: 600;
+                                text-align: left;
+                                padding: 5px 30px;
+                            }
+                            td{
+                                padding: 5px 30px;
+                                a{
+                                    text-decoration: none;
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    color: $black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-down{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 33px;
+                padding-bottom: 41px;
+                p{
+                    font-size: 14px;
+                    font-weight: normal;
+                    color: $black;
+                }
+                .icons-socials{
+                    ul{
+                        display: flex;
+                        gap: 32px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-01b{
+        padding-top: 100px;
+        background-color: $white;
+        max-width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        .footer-up{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 88px;
+            .icon-desc{
+                img{
+                    margin-bottom: 16px;
+                }
+                h3{
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: $black;
+                    margin-bottom: 16px;
+                    width: 60%;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: $black;
+                }
+            }
+            .table{
+                tr{
+                    th{
+                        font-size: 14px;
+                        font-weight: 500;
+                        text-align: left;
+                        padding: 5px 30px;
+                    }
+                    td{
+                        padding: 5px 30px;
+                        a{
+                            font-size: 16px;
+                            font-weight: normal;
+                            color: $black;
+                            text-decoration: none;
+                        }
+                    }
+                    .border{
+                        a{
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            border: 1px solid $silver;
+                            padding: 5px 10px;
+                            border-radius: 50px;
+                            font-size: 14px;
+                            color: $black;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-down{
+            background-color: $green;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            p{
+                font-size: 14px;
+                color: $black;
+                font-weight: normal;
+            }
+            .options{
+                ul{
+                    display: flex;
+                    gap: 32px;
+                    a{
+                        text-decoration: none;
+                        font-size: 14px;
+                        color: $black;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+}
